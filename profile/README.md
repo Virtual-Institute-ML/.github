@@ -22,7 +22,7 @@ and computational approaches to complex systems**.
 Our goal is to develop research projects that connect
 **AI research, scientific computation, software development, and interactive applications**.
 
-## Current Project
+## Current Projects
 
 ### 🃏 Hoola AI
 
@@ -45,6 +45,33 @@ The project currently includes:
 **Current releases:**  
 `v1.1.0` — first public release  
 `v1.2` — GRU-based recurrent agent under development
+
+
+### ⚛️ Fokker–Planck Surrogate Model
+
+**Fokker–Planck Surrogate Model** is a scientific machine-learning project for
+accelerating parameterized **1D Fokker–Planck simulations** with a
+physics-aware neural surrogate.
+
+The project currently includes:
+
+- a conservative Chang–Cooper Fokker–Planck solver
+- parameterized trajectory generation and validation tools
+- PCA compression to a 16-dimensional latent representation
+- a baseline direct MLP surrogate
+- an initial-condition-aware residual MLP surrogate
+- a pretrained residual-model checkpoint
+- inference, visualization, and error-analysis tools
+
+The residual formulation enforces the initial condition by construction while
+retaining held-out reconstruction errors at approximately the `10^-3` relative
+L1 level.
+
+**Repository:**  
+[Virtual-Institute-ML/fokker-planck-surrogate-model](https://github.com/Virtual-Institute-ML/fokker-planck-surrogate-model)
+
+**Current release:**  
+`v1.1`
 
 ## Research Areas
 
@@ -77,6 +104,7 @@ machine learning, computational science, and related fields.
 | Project | Area | Status |
 | --- | --- | --- |
 | [Hoola AI](https://github.com/Virtual-Institute-ML/hoola-korean-card-game-ai) | Game AI / Reinforcement Learning | Active |
+| [Fokker–Planck Surrogate Model](https://github.com/Virtual-Institute-ML/fokker-planck-surrogate-model) | Scientific ML / Computational Physics | Active |
 | More projects | Machine Learning / Scientific Computing | Coming soon |
 
 ## Website
